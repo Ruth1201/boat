@@ -1,0 +1,74 @@
+.bj{
+	background: url(../img/bj.jpg) no-repeat center fixed;
+	background-size: cover;
+	-webkit-background-size: cover;
+	-o-background-size: cover;
+}
+#boat1{
+	width: 130px;
+	height: 130px;
+	position: absolute;
+	margin-top: 380px;
+	display: inline-block;
+}
+#boat2{
+	width: 130px;
+	height: 130px;
+	position: absolute;
+	margin-top: 445px;
+	margin-left: 370px;
+	display: inline-block;
+}
+#boat3{
+	width: 130px;
+	height: 130px;
+	position: absolute;
+	margin-top: 460px;
+	margin-left: 780px;
+	display: inline-block;
+}
+#boat4{
+	width: 130px;
+	height: 130px;
+	position: absolute;
+	margin-top: 390px;
+	margin-left: 940px;
+	display: inline-block;
+}
+#boat5{
+	width: 130px;
+	height: 130px;
+	position: absolute;
+	margin-top: 420px;
+	margin-left: 1150px;
+	display: inline-block;
+}
+#boat6{
+	width: 130px;
+	height: 130px;
+	position: absolute;
+	margin-top: 470px;
+	margin-left: 1380px;
+	display: inline-block;
+}
+#game{
+	width: 130px;
+	height: 130px;
+	position: absolute;
+	margin-top: 550px;
+	margin-left: 150px;
+	display: inline-block;
+}
+#test{
+	width: 130px;
+	height: 130px;
+	position: absolute;
+	margin-top: 550px;
+	margin-left: 1100px;
+	display: inline-block;
+}
+a{
+	text-decoration: none;
+	color: #FFFFFF;
+	font-size: 30px;
+}
