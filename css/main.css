@@ -1,0 +1,154 @@
+.bj {
+    background: url(../img/bj.jpg) no-repeat center fixed;
+    background-size: cover;
+    -webkit-background-size: cover;
+    -o-background-size: cover;
+}
+
+.boat {
+    width: 200px;
+    height: 200px;
+}
+
+#boat1 {
+    position: absolute;
+    top: 400px;
+    left: 110px;
+    display: inline-block;
+}
+
+#boat2 {
+    position: absolute;
+    top: 440px;
+    left: 365px;
+    display: inline-block;
+}
+
+#boat3 {
+    position: absolute;
+    top: 370px;
+    left: 540px;
+    display: inline-block;
+}
+
+#boat4 {
+    position: absolute;
+    top: 460px;
+    left: 740px;
+    display: inline-block;
+}
+
+#boat5 {
+    position: absolute;
+    top: 390px;
+    left: 950px;
+    display: inline-block;
+}
+
+#boat6 {
+    position: absolute;
+    top: 410px;
+    left: 1230px;
+    display: inline-block;
+}
+
+#game {
+    width: 210px;
+    height: 210px;
+    position: absolute;
+    top: 100px;
+    left: 250px;
+    display: inline-block;
+}
+
+#test {
+    width: 210px;
+    height: 210px;
+    position: absolute;
+    top: 150px;
+    left: 1100px;
+    display: inline-block;
+}
+
+a {
+    text-decoration: none;
+    color: #FFFFFF;
+    font-size: 30px;
+}
+
+.prompt {
+    float: left;
+    width: 380px;
+    /* height: 300px; */
+    padding-left: 10px;
+    border: 10px solid rgba(161, 187, 236, 0.527);
+    border-radius: 10px;
+    background-color: rgba(105, 144, 216, 0.7);
+    display: none;
+    font-weight: 500;
+}
+
+#prompt1 {
+    position: absolute;
+    top: 220px;
+    left: 0px;
+}
+
+#prompt2 {
+    position: absolute;
+    top: 80px;
+    left: 105px;
+}
+
+#prompt3 {
+    position: absolute;
+    top: 50px;
+    left: 455px;
+}
+
+#prompt4 {
+    position: absolute;
+    top: 100px;
+    right: 550px;
+}
+
+#prompt5 {
+    position: absolute;
+    top: 130px;
+    right: 105px;
+}
+
+#prompt6 {
+    position: absolute;
+    top: 175px;
+    right: 60px;
+}
+
+#boat1:hover+#prompt1 {
+    display: block;
+}
+
+.boat:hover {
+    width: 250px;
+    height: 250px;
+}
+
+#boat2:hover+#prompt2 {
+    display: block;
+}
+
+#boat3:hover+#prompt3 {
+    display: block;
+}
+
+#boat4:hover+#prompt4 {
+    display: block;
+}
+
+#boat5:hover+#prompt5 {
+    display: block;
+}
+
+#boat6:hover+#prompt6 {
+    display: block;
+}
