@@ -12,43 +12,43 @@
 
 #boat1 {
     position: absolute;
-    top: 57%;
+    top: 59%;
     left: 6.8%;
     display: inline-block;
 }
 
 #boat2 {
     position: absolute;
-    top: 63%;
+    top: 65%;
     left: 24.6%;
     display: inline-block;
 }
 
 #boat3 {
     position: absolute;
-    top: 52%;
+    top: 54%;
     left: 35%;
     display: inline-block;
 }
 
 #boat4 {
     position: absolute;
-    top: 65%;
-    left: 50%;
+    top: 67%;
+    left: 49%;
     display: inline-block;
 }
 
 #boat5 {
     position: absolute;
-    top: 54%;
-    left: 63%;
+    top: 56%;
+    left: 64%;
     display: inline-block;
 }
 
 #boat6 {
     position: absolute;
-    top: 55%;
-    left: 78%;
+    top: 57%;
+    left: 79%;
     display: inline-block;
 }
 
