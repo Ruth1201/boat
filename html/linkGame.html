@@ -1,0 +1,81 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html>
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>连连看</title>
+    <link rel="stylesheet" type="text/css" href="../css/linkGame.css" />
+</head>
+
+<body class="bj">
+    <div id="nav">
+        <ul>
+            <li>
+                <p>导航</p>
+                <a href="#"><img src="../img/nav.png" title="导航栏"></a>
+                <ul>
+                    <li>
+                        <a href="../main.html"><img src="../img/arrow.png"></a>
+                        <ul>
+                            <li><a href="../main.html">首页</a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="./stage1.html"><img src="../img/arrow.png"></a>
+                        <ul>
+                            <li><a href="stage1.html">进入第一阶段</a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="./game.html"><img src="../img/arrow.png"></a>
+                        <ul>
+                            <li><a href="./game.html">做个游戏</a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="./test.html"><img src="../img/arrow.png"></a>
+                        <ul>
+                            <li><a href="./test.html">做个测试</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </li>
+        </ul>
+    </div>
+    <div class="introduce">
+        <p>鼠标左键点击相同的两张图即可互相消除</p>
+    </div>
+    <div id="whole">
+        <div id="gamePanel" tabindex="0">
+            <div id="pieces">
+            </div>
+        </div>
+        <div id="gameLogo">
+            连连看
+        </div>
+        <div id="scorePanel">
+            <span>分 数</span>
+        </div>
+        <div id="score">
+            <span>0</span>
+        </div>
+        <div id="timePanel">
+            <span>时 间</span>
+        </div>
+        <div id="time">
+            <span>0</span>
+        </div>
+        <div id="button">
+            <input id="start" type="button" onclick="Start();" value="开始"></input>
+            <input id="reset" type="button" onclick="Reset();" value="重置"></input>
+        </div>
+    </div>
+    <div class="back">
+        <a href="game.html"><img src="../img/back.png" width="100" height="100"></a>
+    </div>
+    <script type="text/javascript" src="../js/map.js"></script>
+    <script type="text/javascript" src="../js/piece.js"></script>
+    <script type="text/javascript" src="../js/game.js"></script>
+</body>
+
+</html>
