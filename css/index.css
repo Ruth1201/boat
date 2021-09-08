@@ -1,8 +1,10 @@
 /* 背景图片 */
 
 .bj {
-    background: url(../img/bj2.jpg);
-    margin: 0;
+    background: url(../img/bj2.jpg) no-repeat center fixed;
+    background-size: cover;
+    -webkit-background-size: cover;
+    -o-background-size: cover;
 }
 
 
@@ -47,6 +49,7 @@ a {
     font-weight: bold;
     margin: 0 20%;
     margin-bottom: 0;
+    padding-left: 5%;
 }
 
 .bar {
