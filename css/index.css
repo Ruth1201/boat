@@ -1,0 +1,91 @@
+/* 背景图片 */
+
+.bj {
+    background: url(../img/bj3.jpg) no-repeat center fixed;
+    background-size: cover;
+    -webkit-background-size: cover;
+    -o-background-size: cover;
+}
+
+
+/* 进入按钮 */
+
+.button {
+    width: 150px;
+    height: 55px;
+    border: 5px dotted rgba(226, 171, 120, 0.979);
+    border-radius: 12px;
+    background-color: rgba(211, 204, 204, 0.9);
+    text-align: center;
+    margin: 110px auto;
+    font-size: 1cm;
+    font-weight: bold;
+    color: black;
+}
+
+a {
+    text-decoration: none;
+}
+
+.container {
+    width: 60%;
+    margin: 10% auto;
+    margin-bottom: 5%;
+}
+
+.bar {
+    padding-top: 100px;
+}
+
+
+/* 小纸船 */
+
+.boat {
+    width: 110px;
+    position: relative;
+    animation: move 10s;
+    animation-fill-mode: forwards;
+}
+
+.boat img {
+    width: 100px;
+    height: 80px;
+}
+
+@keyframes move {
+    from {
+        left: 5%;
+    }
+    to {
+        left: 80%;
+    }
+}
+
+.bar-fill {
+    height: 20px;
+    display: block;
+    background: #444242;
+    position: relative;
+    left: 10%;
+    /* border: 2px solid #e4522d; */
+    border-radius: 8px;
+    animation: progressbar 10s;
+    animation-fill-mode: forwards;
+}
+
+@keyframes progressbar {
+    from {
+        width: 0;
+    }
+    to {
+        width: 80%;
+    }
+}
+
+.hand img {
+    width: 150px;
+    height: 100px;
+    position: absolute;
+    top: 70%;
+    left: 52%;
+}

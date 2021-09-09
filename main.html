@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <link rel="stylesheet" href='css/main.css' />
+    <title>首页</title>
+</head>
+
+<body class="bj">
+    <div id="boat1" class="boat">
+        <a href="html/stage1.html"><img src="img/boat1.png" width="100%" height="100%" /></a>
+    </div>
+    <div class="prompt" id="prompt1">
+        <p>第一阶段（1921-1949年）：近代工业萌芽阶段。</p>
+        <p>十九世纪八十年代后期开始，杭州、宁波先后建起一些工厂，主要是以农产品为原料的轻纺、食品、制革等行业。二十世纪初，民族资本主义工业一度得到发展。二战前最发达年份1936年的工业产值为7.3亿元。但是由于战争的扰劫破坏以及洋货大量输入的影响，工业经济长期停滞甚至萎缩。</p>
+    </div>
+    <div id="boat2" class="boat">
+        <a href="html/stage2.html"><img src="img/boat2.png" width="100%" height="100%" /></a>
+    </div>
+    <div class="prompt" id="prompt2">
+        <p>第二阶段（1950-1978年）：工业化初创阶段。</p>
+        <p>新中国成立后，浙江通过创办国营工业企业、积极推进私营工业和手工业的社会主义改造、开发重化工业等，推动工业经济迅速恢复及发展。虽然大跃进和“文化大革命”等冲击了国民经济良好的发展态势，工业化进程有所延缓，但是终究在“一穷二白”的初始条件下，建起一大批骨干企业；在发展传统轻纺工业的同时，创立了现代机电工业、石化工业、冶金工业和能源工业，奠定了工业化的基础。</p>
+    </div>
+    <div id="boat3" class="boat">
+        <a href="html/stage3.html"><img src="img/boat3.png" width="100%" height="100%" /></a>
+    </div>
+    <div class="prompt" id="prompt3">
+        <p>第三阶段（1979-1991年）：农村工业化阶段。</p>
+        <p>在党的十一届三中全会精神指引下，浙江从实际出发，利用较为活跃的市场机制，推动农村大量剩余劳动力向非农产业转移，着力推进农村工业化，乡镇企业异军突起，成为引领工业经济发展的生力军。</p>
+    </div>
+    <div id="boat4" class="boat">
+        <a href="html/stage4.html"><img src="img/boat4.png" width="100%" height="100%" /></a>
+    </div>
+    <div class="prompt" id="prompt4">
+        <p>第四阶段（1992-2002年）：全面工业化阶段</p>
+        <p>1992年邓小平同志南方谈话后，浙江以此为契机，按照党的十四大确立的建设社会主义市场经济体制的改革目标，放手发展个体私营经济，率先推进集体企业产权制度改革，国有企业进行改革攻坚战，积极引进三资企业，多种所有制经济共同发展的格局基本形成。</p>
+    </div>
+    <div id="boat5" class="boat">
+        <a href="html/stage5.html"><img src="img/boat5.png" width="100%" height="100%" /></a>
+    </div>
+    <div class="prompt" id="prompt5">
+        <p>第五阶段（2003-2012年）：新型工业化阶段。</p>
+        <p>2003年，面对经济发展资源要素缺乏、生态环境压力和内外市场约束等瓶颈制约，时任省委书记习近平提出“八八战略”总纲，“进一步发挥浙江的块状特色产业优势，加快先进制造业基础建设，走新型工业化道路”，以“腾笼换鸟、凤凰涅槃”的理念推进工业结构调整和发展方式转变。在发展纺织、服装、化纤、皮革、食品等传统优势产业的同时，积极发展装备制造业、高新技术产业、战略性新兴产业和临港重化工业。</p>
+    </div>
+    <div id="boat6" class="boat">
+        <a href="html/stage6.html"><img src="img/boat6.png" width="100%" height="100%" /></a>
+    </div>
+    <div class="prompt" id="prompt6">
+        <p>第六阶段（2013年至今）：迈向高质量发展阶段。</p>
+        <p>党的十八大以来，浙江坚持以“八八战略”为总纲，面对经济发展新常态和国内外形势深刻复杂变化，全力打好以“四个强省”为导向的高质量发展组合拳，深入实施数字经济“一号工程”，加快培育新动能和推动传统产业改造提升，不断推动经济发展质量变革、效率变革、动力变革，工业经济发展已从数量扩张转向质量效益提升的高质量发展新阶段。</p>
+    </div>
+    <div id="game">
+        <a href="html/game.html"><img src="img/game.png" width="100%" height="100%" /></a>
+    </div>
+    <div id="test">
+        <a href="html/test.html"><img src="img/test.png" width="100%" height="100%" /></a>
+    </div>
+    <script language="javascript" type="text/javascript">
+        //定义全局变量
+        directX = 1; //x轴的方向
+        //上面两个全局变量似乎没有生效
+        gameX = 0; //game的坐标x
+        testX = 500;
+
+        function gameMove() {
+            gameX += directX;
+            game.style.left = gameX + "px";
+            //判断什么时候，转变方法
+            //x方法（offsetWidth可以返回当前这个对象的实际宽度）
+            if (gameX + game.offsetWidth >= document.body.clientWidth || gameX <= 0) {
+                directX = -directX;
+            }
+        }
+
+        function testMove() {
+
+            testX += directX;
+
+
+            test.style.left = testX + "px";
+            //判断什么时候，转变方法
+            //x方法（offsetWidth可以返回当前这个对象的实际宽度）
+            if (testX + test.offsetWidth >= document.body.clientWidth || testX <= 0) {
+                directX = -directX;
+            }
+        }
+
+        setInterval("gameMove()", 25);
+        setInterval("testMove()", 25);
+    </script>
+</body>
+
+</html>
